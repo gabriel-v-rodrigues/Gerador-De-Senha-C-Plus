@@ -27,7 +27,9 @@ int main()
 
     std::string password = GeneratePassword(passwordLength);
 
-    std::cout << "Senha gerada: " << std::endl << password;
+    std::cout << "Senha gerada: " << std::endl << password << std::endl;
+
+    system("pause");
 
     return 0;
 }
